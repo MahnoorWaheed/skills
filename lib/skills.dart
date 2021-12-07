@@ -9,11 +9,6 @@ class skills extends StatefulWidget {
 
 class _skillsState extends State<skills> {
 
-
-
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

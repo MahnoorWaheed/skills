@@ -25,7 +25,7 @@ class _LoginState extends State<Login> {
            
              child: MyClipPath(),
            ),
-           Image.asset("assets/images/Capture.PNG", 
+           Image.asset("assets/logo.png", 
            fit: BoxFit.cover,
            width: MediaQuery.of(context).size.width*0.5,
            height: MediaQuery.of(context).size.height*0.3,
@@ -41,7 +41,7 @@ class _LoginState extends State<Login> {
             ActionButton(
               text: "Login",
               ontap: () {
-                skills();
+                Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>skills()));
               },
             ),
             Row(
